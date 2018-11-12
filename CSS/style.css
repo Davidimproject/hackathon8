@@ -29,7 +29,7 @@ html, body {
 
 h1 {
     font-family: 'cover by your grave', sans-serif;
-    font-size: 58px;
+    font-size: 58px !important;
 }
 
 h2 {
@@ -46,33 +46,35 @@ h2 {
 
 .container {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 50px 15px;
     margin-right: auto;
     margin-left: auto;
 }
 
 
 .about {
-	background-color: grey;
+	background-color: #d1d1d1;
 }
 .spots {
-	background-color: white;
+	background-color: #fff;
 }
 .events {
-	background-color: grey;
+	background-color: #d1d1d1;
 }
 .blog {
-	background-color: white;
+	background-color: #fff;
 }
 .newsletter {
-	background-color: grey;
+	background-color: #d1d1d1;
+}
+.banner {
+    height: 800px;
+    min-height: 400px;
+    background-color: #06d500;
 }
 
+
 /* START Navigation */
-
-
-
 
 nav {
     background-color: black;
@@ -99,7 +101,7 @@ nav ul li {
     display: inline-block;
 }
 nav a {
-    font-size: 12px;
+    font-size: 22px;
     padding: 20px;
     display: inline-block;
     color: white;
@@ -128,32 +130,49 @@ nav a:active, nav a:hover {
 
 
 /* START Table */
+=======
+/* Banner */
 
-table {
-    border-collapse: collapse;
+.hero-image {
+    width: 700px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
 }
 
-table tr {
-    margin: 0;
-    border-bottom: 1px solid #909090 ;
+.hero-text {
+    font-family: 'Covered By Your Grace', cursive;
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+/* About us */
+
+.about-text {
+    padding: 20px;
+    background-color: #fff;
+    
+}
+.about-image {
+    width: 400px !important;
+    height: 500px;
 }
 
-table thead th {
-    font-weight: normal;
-    text-align: left;
+.container .aboutiii {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto; 
 }
 
-table td {
-    padding: 10px;
-    /*background: rgba(255,255,255, 0.2);*/
-}
+/* Spots */
 
-table img {
-    height: 100px;
-    width: auto;
-}
 
-/* END Table */
 
 /* -----START Responsive----- */
 
@@ -278,5 +297,19 @@ table img {
     
 }
 
+/* Start Footer */
+.footer { 
+    position: ;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer a {
+	margin-left: 5px;
+}
 
 
