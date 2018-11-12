@@ -48,8 +48,7 @@ h2 {
 
 .container {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 50px 15px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -75,6 +74,8 @@ h2 {
     min-height: 400px;
     background-color: #06d500;
 }
+
+
 
 /* START Navigation */
 
@@ -133,6 +134,7 @@ nav a:active, nav a:hover {
 }
 
 .hero-text {
+    font-family: 'Covered By Your Grace', cursive;
     text-align: right;
     position: absolute;
     top: 50%;
@@ -142,35 +144,23 @@ nav a:active, nav a:hover {
 }
 /* About us */
 
-
-
-/* START Table */
-
-table {
-    border-collapse: collapse;
+.about-text {
+    padding: 20px;
+    background-color: #fff;
+    
+}
+.about-image {
+    width: 400px !important;
+    height: 500px;
 }
 
-table tr {
-    margin: 0;
-    border-bottom: 1px solid #909090 ;
+.container .aboutiii {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto; 
 }
 
-table thead th {
-    font-weight: normal;
-    text-align: left;
-}
-
-table td {
-    padding: 10px;
-    /*background: rgba(255,255,255, 0.2);*/
-}
-
-table img {
-    height: 100px;
-    width: auto;
-}
-
-/* END Table */
 
 /* -----START Responsive----- */
 
