@@ -4,12 +4,16 @@ html, body {
 
 }
 
-.logo, h1 {
+.logo {
 		font-family: 'Covered By Your Grace', cursive;
 		color: white;
+        font-size: 42px;
 		text-align: left;
 }
 
+.logo {
+    padding: 0px;
+}
 h1, h2, h3, h4, h5, h6 {
     margin: 0.5em 0;
 }
@@ -68,6 +72,10 @@ h2 {
 }
 
 /* START Navigation */
+
+
+
+
 nav {
     background-color: black;
     padding: 0px 20px;
@@ -81,6 +89,7 @@ nav {
 }
 
 nav ul {
+
     padding: 0;
     margin: 0;
     list-style: none;
