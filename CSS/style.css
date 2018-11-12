@@ -50,7 +50,7 @@ nav ul li {
     display: inline-block;
 }
 nav a {
-    font-size: 16px;
+    font-size: 12px;
     padding: 20px;
     display: inline-block;
     color: white;
@@ -59,7 +59,7 @@ nav a {
 
 nav a.active, nav a:hover {
     background: rgba(255,255,255, 0.2);
-    color: white;
+    color: #06d500;
 }
 
 #icon {
