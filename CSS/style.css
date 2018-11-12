@@ -8,12 +8,10 @@ html, body {
 		font-family: 'Covered By Your Grace', cursive;
 		color: white;
         font-size: 42px;
-		text-align: left;
+		
 }
 
-.logo {
-    padding: 0px;
-}
+
 h1, h2, h3, h4, h5, h6 {
     margin: 0.5em 0;
 }
@@ -24,7 +22,7 @@ body {
 
 html, body {
     margin: 0;
-    padding: 0;
+    padding-top: 50px;
     outline: none;
     border: none;
 }
@@ -93,7 +91,7 @@ nav ul {
     padding: 0;
     margin: 0;
     list-style: none;
-	text-align: right;
+	
 }
 
 nav ul li {
@@ -118,6 +116,10 @@ nav a:active, nav a:hover {
     display: none;
 }
 
+
+.nav-right {
+		float: right;
+}
 
 /* END Navigation */
 
@@ -251,6 +253,9 @@ table img {
     
     
     /**---ausgeklapptes Menü---*/
+	body {
+		padding-top: 0px;
+	}
     nav {
         padding: 0px;
         text-align: center;
@@ -260,9 +265,14 @@ table img {
         flex-direction: column;
 		text-align: center;
     }
+	
+	nav ul li {
+		 display: hidden;
+		
+	}
     
     nav a {
-        margin: 5px 0 0 -20px;;
+        margin: 5px 0 0 -20px;
         width: 100%;
     }
     
