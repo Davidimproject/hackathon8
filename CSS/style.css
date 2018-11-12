@@ -10,6 +10,26 @@ h1, h2, h3, h4, h5, h6 {
 body {
     margin: 0;
 }
+/* Sections */
+section {
+	width: 100%;
+	height: 600px;
+}
+.about {
+	background-color: grey;
+}
+.spots {
+	background-color: grey;
+}
+.events {
+	background-color: grey;
+}
+.blog {
+	background-color: grey;
+}
+.newsletter {
+	background-color: grey;
+}
 
 /* START Navigation */
 nav {
