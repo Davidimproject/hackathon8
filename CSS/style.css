@@ -8,7 +8,18 @@ html, body {
     overflow: hidden;
 }
 
+<<<<<<< HEAD
 
+=======
+.logo {
+		font-family: 'Covered By Your Grace', cursive;
+		color: white;
+        font-size: 42px;
+		
+}
+
+
+>>>>>>> 990935df8842548cc181267c803ac261f0473104
 h1, h2, h3, h4, h5, h6 {
     margin: 0.5em 0;
 }
@@ -17,9 +28,19 @@ body {
     margin: 0;
 }
 
+<<<<<<< HEAD
+=======
+html, body {
+    margin: 0;
+    padding-top: 50px;
+    outline: none;
+    border: none;
+}
+
+>>>>>>> 990935df8842548cc181267c803ac261f0473104
 h1 {
     font-family: 'cover by your grave', sans-serif;
-    font-size: 58px;
+    font-size: 58px !important;
 }
 
 h2 {
@@ -86,7 +107,6 @@ h2 {
 }
 
 
-
 /* START Navigation */
 
 nav {
@@ -119,7 +139,7 @@ nav ul {
     padding: 0;
     margin: 0;
     list-style: none;
-	text-align: right;
+	
 }
 
 nav ul li {
@@ -127,7 +147,7 @@ nav ul li {
     display: inline-block;
 }
 nav a {
-    font-size: 12px;
+    font-size: 22px;
     padding: 20px;
     display: inline-block;
     color: white;
@@ -145,6 +165,18 @@ nav a:active, nav a:hover {
 }
 
 
+.nav-right {
+		float: right;
+}
+
+/* END Navigation */
+
+/* About us */
+
+
+
+/* START Table */
+=======
 /* Banner */
 
 .hero-image {
@@ -167,6 +199,9 @@ nav a:active, nav a:hover {
 }
 /* About us */
 
+
+
+/* Spots */
 
 
 
@@ -296,6 +331,9 @@ nav a:active, nav a:hover {
     
     
     /**---ausgeklapptes Menü---*/
+	body {
+		padding-top: 0px;
+	}
     nav {
         padding: 0px;
         text-align: center;
@@ -305,13 +343,32 @@ nav a:active, nav a:hover {
         flex-direction: column;
 		text-align: center;
     }
+	
+	nav ul li {
+		 display: hidden;
+		
+	}
     
     nav a {
-        margin: 5px 0 0 -20px;;
+        margin: 5px 0 0 -20px;
         width: 100%;
     }
     
 }
 
+/* Start Footer */
+.footer { 
+    position: ;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer a {
+	margin-left: 5px;
+}
 
 

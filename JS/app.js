@@ -25,7 +25,7 @@ $(window) .resize(function(){
         }
     
 });
-    
+//scroll   
 $(function() {
       $('a').click(function() {
 if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
@@ -34,7 +34,8 @@ if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
     $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
     if ($target.length) {
         var targetOffset = $target.offset().top;
-        $('html,body').animate({scrollTop: targetOffset}, 700);
+		var HeaderHeight = $("#menu").outerHeight();
+        $('html,body').animate({scrollTop: targetOffset - HeaderHeight}, 700 );
         return false;
     }
 }
