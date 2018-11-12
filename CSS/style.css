@@ -93,7 +93,7 @@ nav a {
     text-decoration: none;
 }
 
-nav a.active, nav a:hover {
+nav a:active, nav a:hover {
     background: rgba(255,255,255, 0.2);
     color: #06d500;
 	text-decoration: none;
