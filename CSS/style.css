@@ -23,7 +23,7 @@ h1 {
     font-size: 58px;
 }
 /* Sections */
-section {
+.section {
 	width: 100%;
 	height: 600px;
 	margin: 0;
@@ -32,13 +32,13 @@ section {
 	background-color: grey;
 }
 .spots {
-	background-color: grey;
+	background-color: white;
 }
 .events {
 	background-color: grey;
 }
 .blog {
-	background-color: grey;
+	background-color: white;
 }
 .newsletter {
 	background-color: grey;
