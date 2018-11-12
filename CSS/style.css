@@ -186,6 +186,10 @@ table img {
     h2 {
         font-size: 38px;
     }
+    
+    img {
+        width: 40%;
+    }
     .hidden-mobile, .hidden-tablet {
        
         display: none;
