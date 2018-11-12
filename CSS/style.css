@@ -4,7 +4,7 @@ html, body {
 
 }
 
-.logo {
+.logo a{
 		font-family: 'Covered By Your Grace', cursive;
 		color: white;
         font-size: 42px;
@@ -56,25 +56,27 @@ h2 {
 
 
 .about {
-	background-color: grey;
+	background-color: #d1d1d1;
 }
 .spots {
-	background-color: white;
+	background-color: #fff;
 }
 .events {
-	background-color: grey;
+	background-color: #d1d1d1;
 }
 .blog {
-	background-color: white;
+	background-color: #fff;
 }
 .newsletter {
-	background-color: grey;
+	background-color: #d1d1d1;
+}
+.banner {
+    height: 800px;
+    min-height: 400px;
+    background-color: #06d500;
 }
 
 /* START Navigation */
-
-
-
 
 nav {
     background-color: black;
@@ -119,8 +121,25 @@ nav a:active, nav a:hover {
 }
 
 
-/* END Navigation */
+/* Banner */
 
+.hero-image {
+    width: 700px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
 /* About us */
 
 
