@@ -27,7 +27,11 @@ h1 {
 	width: 100%;
 	height: 600px;
 	margin: 0;
+    
+    
 }
+
+
 .about {
 	background-color: grey;
 }
@@ -89,15 +93,6 @@ nav a.active, nav a:hover {
 
 
 
-
-/* START Section, Article */
-section, article {
-    margin: 20px;
-    padding: 10px;
-    background-color: #FFFFFF;
-    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2), 0 1px 10px 0 rgba(0,0,0,0.15);
-}
-/* END Section, Article */
 
 /* START Table */
 
