@@ -8,18 +8,7 @@ html, body {
     overflow: hidden;
 }
 
-<<<<<<< HEAD
 
-=======
-.logo {
-		font-family: 'Covered By Your Grace', cursive;
-		color: white;
-        font-size: 42px;
-		
-}
-
-
->>>>>>> 990935df8842548cc181267c803ac261f0473104
 h1, h2, h3, h4, h5, h6 {
     margin: 0.5em 0;
 }
@@ -28,16 +17,7 @@ body {
     margin: 0;
 }
 
-<<<<<<< HEAD
-=======
-html, body {
-    margin: 0;
-    padding-top: 50px;
-    outline: none;
-    border: none;
-}
 
->>>>>>> 990935df8842548cc181267c803ac261f0473104
 h1 {
     font-family: 'cover by your grave', sans-serif;
     font-size: 58px !important;
@@ -176,7 +156,6 @@ nav a:active, nav a:hover {
 
 
 /* START Table */
-=======
 /* Banner */
 
 .hero-image {
