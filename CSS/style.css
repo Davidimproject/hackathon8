@@ -1,6 +1,11 @@
 html, body {
     font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
     background-color: #fafafa;
+
+}
+
+.logo {
+		font-family: 'Covered By Your Grace', cursive;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -62,7 +67,7 @@ h2 {
 
 /* START Navigation */
 nav {
-    background-color: #062F4F;
+    background-color: black;
     padding: 0px 20px;
     box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2), 0 1px 10px 0 rgba(0,0,0,0.15);
     font-size: 0;
@@ -77,6 +82,7 @@ nav ul {
     padding: 0;
     margin: 0;
     list-style: none;
+	text-align: right;
 }
 
 nav ul li {
@@ -91,15 +97,18 @@ nav a {
     text-decoration: none;
 }
 
-nav a.active, nav a:hover {
+nav a:active, nav a:hover {
     background: rgba(255,255,255, 0.2);
     color: #06d500;
+	text-decoration: none;
 }
 
 #icon {
     display: none;
 }
 
+
+/* END Navigation */
 
 /* About us */
 
@@ -196,7 +205,7 @@ table img {
         display: block;
         width: 100%;
         margin: 0;
-        background-color: #062F4F;
+        background-color: black;
         box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2), 0 1px 10px 0 rgba(0,0,0,0.15);
 		position: fixed;
 		z-index: 1000;
@@ -212,6 +221,13 @@ table img {
         padding-left: 5px;
     }
     
+	#logo {
+			display: block;
+			width: 49px;
+			height: auto;
+			padding-left: 5px;
+			
+	}
     
     
     #menu {
@@ -227,6 +243,7 @@ table img {
     nav ul {
         display: flex !important;
         flex-direction: column;
+		text-align: center;
     }
     
     nav a {
