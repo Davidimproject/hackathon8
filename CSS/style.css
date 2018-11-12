@@ -84,19 +84,9 @@ nav a.active, nav a:hover {
     display: none;
 }
 
-.contentleft {
-    display: flex;
-    flex-direction: column;
-    padding: 100px 50px;
-    margin: 50px;
-    background-color: #fff;
-    box-shadow: 5px 10px 18px #888888;
-}
+
 /* About us */
-.aboutustext {
-    display: block;
-    padding: 20px; 
-}
+
 
 
 
