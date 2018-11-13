@@ -36,7 +36,10 @@ if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
         var targetOffset = $target.offset().top;
 		/*var HeaderHeight = $("#menuBtn").outerHeight();*/
         $('html,body').animate({scrollTop: targetOffset - 73 /*HeaderHeight*/}, 700 );
-        return false;
+        if ($(window).width() < 768) {
+		$('nav').hide()
+		}	
+		return false;
     }
 }
   });
