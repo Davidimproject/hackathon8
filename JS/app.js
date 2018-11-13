@@ -25,7 +25,10 @@ $(window) .resize(function(){
         }
     
 });
-//scroll   
+
+
+//scroll 
+ 
 $(function() {
       $('a').click(function() {
 if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
@@ -34,16 +37,20 @@ if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
     $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
     if ($target.length) {
         var targetOffset = $target.offset().top;
-		/*var HeaderHeight = $("#menuBtn").outerHeight();*/
-        $('html,body').animate({scrollTop: targetOffset /*HeaderHeight*/}, 700 );
-        if ($(window).width() <= 768) {
-		$('nav').slideUp()
+		//var HeaderHeight = $("#menuBtn").outerHeight();
+        $('html,body').animate({scrollTop: targetOffset}, 700 );
+        
+		// Bei mobiler Ansicht soll die Navigation nach Betätigung ausgeblendet werden
+		if ($(window).width() <= 768) {
+		$('#menu').slideUp()
 		}	
 		return false;
     }
 }
   });
 });
+
+
 /*Slider*/
 var slideIndex = 0;
 showSlides();
@@ -62,7 +69,9 @@ function showSlides() {
     
     
 
-//scrollSpy function
+
+	
+//ScrollSpy zeigt die aktuelle Position der Seite in der Navigation
 
 
  function scrollSpy() {
@@ -77,16 +86,20 @@ function showSlides() {
       $("nav a").not("a[href='#"+current+"']").removeClass('active');      
     }
     // smooth scrolling navigation
-	/*
+/*	
     $("nav a").click( function() {
       var target = $(this).attr("href");
       $("body, html").animate({
         scrollTop: $(target).offset().top
       }, 300);
+	  if ($(window).width() <= 768) {
+		$('nav').slideUp()
+		}
       return false;
     });
-	*/
+*/	
     //scrollSpy call
+	
    
     $(window).scroll( function() {
       scrollSpy();
@@ -96,7 +109,19 @@ function showSlides() {
  
  
  
+
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ // Diese }) gehören zur Document Ready Funktion und düefen deshal auf keinen Fall entfertn werden. 
 })
 	
 	
