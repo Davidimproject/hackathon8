@@ -36,29 +36,29 @@ if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
         var targetOffset = $target.offset().top;
 		/*var HeaderHeight = $("#menuBtn").outerHeight();*/
         $('html,body').animate({scrollTop: targetOffset - 73 /*HeaderHeight*/}, 700 );
-        return false;
+        if ($(window).width() < 768) {
+		$('nav').hide()
+		}	
+		return false;
     }
 }
   });
 });
 /*Slider*/
-var slideIndex = 1;
-showDivs(slideIndex);
+var slideIndex = 0;
+showSlides();
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("slides");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}    
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("slides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 3000); // Change image every 3 seconds
+}     
     
     
 })
