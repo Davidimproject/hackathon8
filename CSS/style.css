@@ -289,7 +289,7 @@ nav a:active, nav a:hover {
         text-align: center;
     }
     nav ul {
-        display: flex !important;
+        display: flex;
         flex-direction: column;
 		text-align: center;
     }
