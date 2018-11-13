@@ -151,6 +151,7 @@ nav a:active, nav a:hover, a.active {
 		float: right;
 }
 
+
 /* END Navigation */
 
 /* About us */
@@ -281,10 +282,20 @@ nav a:active, nav a:hover, a.active {
 		top: 0;
 		left: 0; 
 		height: 73px;
-    } 
+    }
+	#menuBtn a{
+		display: none;
+	}
+	#menuBtn a.active {
+		display: inline;
+		color:white;
+		margin: 0;
+		background: none;
+	}
+	
    
     #icon {
-        display: block;
+        display: inline-block;
         width: auto;
         height: 70px;
         padding-left: 5px;
