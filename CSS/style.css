@@ -5,7 +5,6 @@ html, body {
     padding: 0;
     outline: none;
     border: none;
-    overflow: hidden;
 }
 
 
@@ -90,7 +89,7 @@ h2 {
 /* START Navigation */
 
 nav {
-    display: flex !important;
+    /*display: flex !important;*/
     flex-direction: row;
     justify-content: space-between;
     background-color: black;
@@ -194,13 +193,7 @@ nav a:active, nav a:hover {
 /* Desktop Responsive*/
 @media only screen and (min-width: 992px) {
     
-    .only-desktop {
-        visibility: visible;
-    }
     
-    .only-tablet, .only-mobile {
-        visibility: collapse;
-    }
 }
 
 
@@ -211,20 +204,9 @@ nav a:active, nav a:hover {
     
     .hero-image {
         width: 500px;
-    }
-    .hidden-tablet {
-        display: none;
-    }
     
-    .only-tablet {
-        visibility: visible;
-    }
-    
-    .only-mobile, .only-desktop {
-        visibility: collapse;
-    }
 }
-
+}
 /* Mobile Responsive */
 
 @media only screen and (max-width: 768px) {
@@ -265,18 +247,7 @@ nav a:active, nav a:hover {
     img {
         width: 40%;
     }
-    .hidden-mobile, .hidden-tablet {
-       
-        display: none;
-    }
     
-    .only-mobile {
-        visibility: visible;
-    }
-    
-    .only-tablet, .only-desktop {
-        visibility: collapse;
-    }
      
     /* Resposive Nav mobile*/
     
@@ -323,7 +294,7 @@ nav a:active, nav a:hover {
         text-align: center;
     }
     nav ul {
-        display: flex !important;
+        display: flex;
         flex-direction: column;
 		text-align: center;
     }
