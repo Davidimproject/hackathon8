@@ -346,7 +346,7 @@ nav a:active, nav a:hover {
     text-align: center;
 }
 
-.footer a {
+.footer a, p {
 	margin-left: 5px;
 }
 
