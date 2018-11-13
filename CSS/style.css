@@ -180,7 +180,12 @@ nav a:active, nav a:hover {
 
 
 
-/* Spots */
+/* Spots (Slidegalerie)*/
+
+.slides {
+		display:none;
+		width: 95%;
+}
 
 
 
