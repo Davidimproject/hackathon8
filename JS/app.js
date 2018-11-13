@@ -4,7 +4,8 @@ $(function() {
   var menuVisible = false;
   $('#icon').click(function() {
     if (menuVisible) {
-      $('#menu').css({'display':'none'});
+     // $('#menu').css({'display':'none'});
+	  $('#menu').slideUp();
       menuVisible = false;
       return;
     }
