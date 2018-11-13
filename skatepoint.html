@@ -4,15 +4,34 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css"> 
     <link rel="stylesheet" href="CSS/bootstrap.css">
 	<link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="js/app.js"></script>
     <title>Skatepoint</title>
+	
+<style>
+    header {
+      height: 20px;
+      background-color: #fff;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+   
+    
+
+    
+    
+    
+  </style>	
+  
+  
+  
 </head>
 <body>
-    <div id="menuBtn">
+  <!--  <div id="menuBtn">
         <img src="images/icon.png" id="icon" alt="burger">
     </div>
 <nav id="menu">
@@ -20,15 +39,40 @@
 
 
 
-                <li><a href="skatepoint.html" class="logo"></a></li>
-                <li><a href="#scrollabout" class="active">About</a></li>
-                <li><a href="#scrollspots">Spots</a></li>
-                <li><a href="#scrollevents">Events</a></li>
-				<li><a href="#scrollblog">Blog</a></li>
-				<li><a href="#scrollnewsletter">Newsletter</a></li>
+                <li><a href="skatepoint.html" class="logo">Skatepoint</a></li>
+                <li><a href="#sec1" class="active">About</a></li>
+                <li><a href="#sec2">Spots</a></li>
+                <li><a href="#sec3">Events</a></li>
+				<li><a href="#sec4">Blog</a></li>
+				<li><a href="#sec5">Newsletter</a></li>
             </ul>
 </nav>    
+-->
+<header>
+<div id="menuBtn">
+        <img src="images/icon.png" id="icon" alt="burger">
+				<nav><a href="#sec1">About</a>
+				<a href="#sec2">Spots</a>
+                <a href="#sec3">Events</a>
+				<a href="#sec4">Blog</a>
+				<a href="#sec5">Newsletter</a>
+				</nav>
+		
+    </div>
+	<nav id="menu">
+            
 
+
+
+                <a href="skatepoint.html" class="logo">Skatepoint</a>
+                <a href="#sec1">About</a>
+                <a href="#sec2">Spots</a>
+                <a href="#sec3">Events</a>
+				<a href="#sec4">Blog</a>
+				<a href="#sec5">Newsletter</a>
+            
+</nav> 
+</header>
 
 <!-- Sections -->
 <section class="section banner">
@@ -39,13 +83,13 @@
         </div>
     </div>
 </section>
-<section class="section about" id="scrollabout">
+<section class="section about" id="sec1">
     <div class="container">
         <div class="left">text</div>
         <div class="right">Bild</div>
     </div>
 </section>
-<section class="section spots" id="scrollspots">
+<section class="section spots" id="sec2">
     <div class="container">
 	
 	
@@ -58,7 +102,7 @@
 
   
 </section>
-<section class="section events" id="scrollevents">
+<section class="section events" id="sec3">
     <div class="container">
        <div class=left>
         <div class="Eventkalender">
@@ -85,13 +129,13 @@
         <div class="right">text/Bild</div>     
     </div>
 </section>
-<section class="section blog" id="scrollblog">
+<section class="section blog" id="sec4">
     <div class="container">
         <div class=left>Bild</div>
         <div class="right">Blogvorschau</div>        
     </div>
 </section>
-<section class="section newsletter" id="scrollnewsletter">
+<section class="section newsletter" id="sec5">
     <div class="container">
         <div class="full">Newsletter</div>
     </div>
@@ -126,3 +170,4 @@
 </div>
 </body>
 </html>
+
