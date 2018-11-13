@@ -207,7 +207,7 @@ nav a:active, nav a:hover, a.active {
     margin: 10px 0;
     border: 1px solid #d1d1d1;
     padding-left: 5px;
-    transform: 300ms ease-in-out;
+    transition: transform .2s;
 }
 
 .Event h5 {
@@ -215,7 +215,7 @@ nav a:active, nav a:hover, a.active {
 }
 
 .Event:hover {
-    transform: translateZ(10px);
+    transform: scale(1,1);
 }
 
 /* -----START Responsive---------------------------------------------------------------------------------------------------------------- */
@@ -235,7 +235,12 @@ nav a:active, nav a:hover, a.active {
     .hero-image {
         width: 500px;
     
-}
+    }
+    .hero-image {
+        width: 300px;
+        top: 35%;
+        left: 50%;
+    }
 }
 /* Mobile Responsive */
 
