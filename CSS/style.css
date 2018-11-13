@@ -192,17 +192,29 @@ nav a:active, nav a:hover {
     display: block;
     border: 1px solid #000;
     padding: 20px;
+    margin-top: 5px;
+    color: #777;
 } 
 
 .Event {
     display: flex;
-    
+    flex-direction: column;
+    height: auto;
+    margin: 10px 0;
+    border: 1px solid #d1d1d1;
+    padding-left: 5px;
+    transform: 300ms ease-in-out;
 }
 
+.Event h5 {
+    color: #000;
+}
 
+.Event:hover {
+    transform: translateZ(10px);
+}
 
-
-/* -----START Responsive----- */
+/* -----START Responsive---------------------------------------------------------------------------------------------------------------- */
 
 /* Desktop Responsive*/
 @media only screen and (min-width: 992px) {
@@ -241,17 +253,6 @@ nav a:active, nav a:hover {
         height: 50%;
     }
     
-    .hero-image {
-        width: 300px;
-        top: 35%;
-        left: 50%;
-    }
-    
-    .hero-text {
-    top: 35%;
-    left: 75%;
-    }
-    
     h1 {
         font-size: 32px !important;
     }
@@ -264,6 +265,27 @@ nav a:active, nav a:hover {
         width: 40%;
     }
     
+    
+    .hero-image {
+        width: 300px;
+        top: 35%;
+        left: 50%;
+    }
+    
+    .hero-text {
+        top: 35%;
+        left: 75%;
+    }
+    
+    .footer {
+        display: block;
+        height: 400px !important;
+    }
+    
+    .footer-row {
+        display: block;
+        margin: 10px 0px !important;
+    }
      
     /* Resposive Nav mobile*/
     #menuBtn {
@@ -329,15 +351,24 @@ nav a:active, nav a:hover {
     
 }
 
-/* Start Footer */
+
+
+
+
+
+
+
+
+
+/*----------- Start Footer--------- */
 .footer { 
     width: 100%;
     background-color: #fff;
-    color: #000;
+    color: #777;
     text-align: left;
-	height: 300px;
+	height: 220px;
 	margin: 0;
-    padding: 30px 0;
+    padding: 30px 0 0 0;
 }
 
 
@@ -348,6 +379,7 @@ nav a:active, nav a:hover {
     text-align: left;
 }
 .footer-row h5{
+    color: #000;
     font-size: 22px;
     font-weight: 700;
     margin-left: 45px;
@@ -356,9 +388,11 @@ nav a:active, nav a:hover {
 
 .footer-row ul li {
     list-style: none;
-    padding: 10px;
+    padding: 5px;
+    font-size: 12px;
 }
 
 footer-row a {
     color: #000;
+    text-decoration-color: #777;
 }
