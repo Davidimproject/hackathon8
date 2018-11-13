@@ -35,7 +35,7 @@ if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
     if ($target.length) {
         var targetOffset = $target.offset().top;
 		/*var HeaderHeight = $("#menuBtn").outerHeight();*/
-        $('html,body').animate({scrollTop: targetOffset - 73 /*HeaderHeight*/}, 700 );
+        $('html,body').animate({scrollTop: targetOffset /*HeaderHeight*/}, 700 );
         if ($(window).width() <= 768) {
 		$('nav').slideUp()
 		}	
