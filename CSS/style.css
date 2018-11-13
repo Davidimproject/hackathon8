@@ -179,7 +179,12 @@ nav a:active, nav a:hover {
 
 
 
-/* Spots */
+/* Spots (Slidegalerie)*/
+
+.slides {
+		display:none;
+		width: 95%;
+}
 
 
 
@@ -247,7 +252,6 @@ nav a:active, nav a:hover {
     
      
     /* Resposive Nav mobile*/
-    
     #menuBtn {
         display: block;
         width: 100%;
@@ -259,12 +263,13 @@ nav a:active, nav a:hover {
 		width: 100%;
 		top: 0;
 		left: 0; 
+		height: 73px;
     } 
    
     #icon {
         display: block;
-        width: 49px;
-        height: auto;
+        width: auto;
+        height: 70px;
         padding-left: 5px;
     }
     
@@ -289,6 +294,8 @@ nav a:active, nav a:hover {
     nav {
         padding: 0px;
         text-align: center;
+		position: fixed;
+		margin-top:73px;
     }
     nav ul {
         display: flex;
