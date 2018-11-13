@@ -61,4 +61,42 @@ function showSlides() {
 }     
     
     
+
+//scrollSpy function
+
+
+ function scrollSpy() {
+      var sections = ['sec1', 'sec2', 'sec3', 'sec4', 'sec5'];
+      var current;
+      for (var i = 0; i < sections.length; i++) {
+        if ( $('#'+sections[i]).offset().top <= $(window).scrollTop() ) {
+          current = sections[i];
+        }
+      }
+      $("nav a[href='#"+current+"']").addClass('active');
+      $("nav a").not("a[href='#"+current+"']").removeClass('active');      
+    }
+    // smooth scrolling navigation
+	/*
+    $("nav a").click( function() {
+      var target = $(this).attr("href");
+      $("body, html").animate({
+        scrollTop: $(target).offset().top
+      }, 300);
+      return false;
+    });
+	*/
+    //scrollSpy call
+   
+    $(window).scroll( function() {
+      scrollSpy();
+
+ });
+ 
+ 
+ 
+ 
+ 
 })
+	
+	

@@ -114,7 +114,7 @@ nav {
 }
 
 
-nav ul {
+/*nav ul {
     align-self: flex-end;
     padding: 0;
     margin: 0;
@@ -125,7 +125,7 @@ nav ul {
 nav ul li {
     padding: 0;
     display: inline-block;
-}
+}*/
 nav a {
     font-size: 22px;
     padding: 20px;
@@ -134,7 +134,7 @@ nav a {
     text-decoration: none;
 }
 
-nav a:active, nav a:hover {
+nav a:active, nav a:hover, a.active {
     background: rgba(255,255,255, 0.2);
     color: #06d500;
 	text-decoration: none;
@@ -288,7 +288,7 @@ nav a:active, nav a:hover {
         padding-left: 5px;
     }
     
-	#logo {
+	.logo {
 			display: block;
 			width: 49px;
 			height: auto;
@@ -312,7 +312,7 @@ nav a:active, nav a:hover {
 		position: fixed;
 		margin-top:73px;
     }
-    nav ul {
+    /*nav ul {
         display: flex;
         flex-direction: column;
 		text-align: center;
@@ -322,7 +322,7 @@ nav a:active, nav a:hover {
 		 display: hidden;
 		
 	}
-    
+    */
     nav a {
         margin: 5px 0 0 -20px;
         width: 100%;
