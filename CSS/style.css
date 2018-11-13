@@ -33,13 +33,15 @@ h2 {
     border-radius: 5px;
     padding: 12px 24px;
     margin: 10px;
-    background-color: #bbb;
+    background-color: #06d500;
     color: #fff;
-    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-family: 'cover by your grave', sans-serif;
     text-align: center;
     font-size: 16px;
     line-height: 16px;
 }
+
+
 
 /* Sections & Container */
 .section {
@@ -81,24 +83,24 @@ h2 {
 }
 
 .about {
-	background-color: #d1d1d1;
+	background-color: #f8f8f8;
 }
 .spots {
 	background-color: #fff;
 }
 .events {
-	background-color: #d1d1d1;
+	background-color: #f8f8f8;
 }
 .blog {
 	background-color: #fff;
 }
 .newsletter {
-	background-color: #d1d1d1;
+	background-color: #f8f8f8;
 }
 .banner {
     height: 800px;
     min-height: 400px;
-    background-color: #06d500;
+    background-color: #d1d1d1;
 }
 
 
@@ -260,6 +262,11 @@ nav a:active, nav a:hover, a.active {
 }
 .newsletter h6 {
     margin-bottom: 50px;
+}
+
+.input {
+    padding: 0px 50px;
+    color: #d1d1d1;
 }
 /* -----START Responsive---------------------------------------------------------------------------------------------------------------- */
 
