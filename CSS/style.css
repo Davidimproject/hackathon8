@@ -27,6 +27,22 @@ h2 {
     font-size: 48px;
 }
 
+.button {
+    display: block;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    margin: 10px;
+    background-color: #06d500;
+    color: #fff;
+    font-family: 'cover by your grave', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+
+
 /* Sections & Container */
 .section {
 	width: 100%;
@@ -67,24 +83,24 @@ h2 {
 }
 
 .about {
-	background-color: #d1d1d1;
+	background-color: #f8f8f8;
 }
 .spots {
 	background-color: #fff;
 }
 .events {
-	background-color: #d1d1d1;
+	background-color: #f8f8f8;
 }
 .blog {
 	background-color: #fff;
 }
 .newsletter {
-	background-color: #d1d1d1;
+	background-color: #f8f8f8;
 }
 .banner {
     height: 800px;
     min-height: 400px;
-    background-color: #06d500;
+    background-color: #d1d1d1;
 }
 
 
@@ -190,12 +206,12 @@ nav a:active, nav a:hover, a.active {
 		width: 100%;
 }
 
-/* Events*/
+
 
 .Eventkalender {
     display: block;
     border: 1px solid #000;
-    padding: 20px;
+    padding: 5px 20px;
     margin-top: 5px;
     color: #777;
 } 
@@ -207,7 +223,7 @@ nav a:active, nav a:hover, a.active {
     margin: 10px 0;
     border: 1px solid #d1d1d1;
     padding-left: 5px;
-    transition: transform .2s;
+    transition: all 0.3s ease 0s;
 }
 
 .Event h5 {
@@ -215,9 +231,43 @@ nav a:active, nav a:hover, a.active {
 }
 
 .Event:hover {
-    transform: scale(1,1);
+    transform: translateY(-7px);
+    background-color: #d1d1d1;
+    box-shadow: 1px 2px 18px #888888;
 }
 
+.Event-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+.Event-text p {
+    text-align: left;
+}
+.Event-text h4 {
+    margin-bottom: 20px;
+}
+
+
+/* Newsletter*/
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.newsletter h6 {
+    margin-bottom: 50px;
+}
+
+.input {
+    padding: 0px 50px;
+    color: #d1d1d1;
+}
 /* -----START Responsive---------------------------------------------------------------------------------------------------------------- */
 
 /* Desktop Responsive*/
@@ -388,7 +438,7 @@ nav a:active, nav a:hover, a.active {
     background-color: #fff;
     color: #777;
     text-align: left;
-	height: 220px;
+	height: 250px;
 	margin: 0;
     padding: 30px 0 0 0;
 }
