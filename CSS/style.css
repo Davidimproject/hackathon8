@@ -194,7 +194,10 @@ nav a:active, nav a:hover {
     padding: 20px;
 } 
 
-
+.Event {
+    display: flex;
+    
+}
 
 
 
