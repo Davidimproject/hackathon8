@@ -58,7 +58,7 @@ h2 {
     margin-right: auto;
     margin-left: auto;
 	margin-top: 50px;
-	margin-bottom: 50 px;
+	margin-bottom: 50px;
     display: flex;
     flex-direction: row;
 }
@@ -94,7 +94,7 @@ h2 {
 .banner {
     height: 800px;
     min-height: 400px;
-    background-image: url(../images/max-tarkhov-737999-unsplash.jpg);
+    background-image: url(../images/IMG_0057.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -169,14 +169,16 @@ nav a:active, nav a:hover, a.active {
 /* Banner */
 
 .top-right {
-font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Covered By Your Grace', cursive;
     text-align: right;
-    position: absolute; }
+    position: absolute; 
+    color: #fff;
+    font-size: 52px;
+}
 
 
 .container .hero {
     position: relative;
-    text-align: center;
     color: white;
 }
 
@@ -256,6 +258,36 @@ font-family: 'Covered By Your Grace', cursive;
 }
 
 
+/* Blog */
+
+.block-img {
+    width: 100%;
+    height: auto;
+    padding: 20px 30px 0 20px;
+}
+
+.blog-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.blog-vorschau {
+    display: block;
+    padding: 5px 20px;
+    margin-top: 5px;
+    color: #777;
+} 
+.blog-eintrag {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 20px 0;
+    padding-left: 5px;
+
+}
+
 /* Newsletter*/
 
 .newsletter {
@@ -293,6 +325,10 @@ font-family: 'Covered By Your Grace', cursive;
     left: 70%;
     font-size: 42px;
 }
+    
+    .blog-img {
+        width: 50%;
+    }
 }
 /* Mobile Responsive */
 
