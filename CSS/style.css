@@ -167,7 +167,23 @@ nav a:active, nav a:hover, a.active {
 /* END Navigation */
 
 /* Banner */
+<<<<<<< HEAD
 .top-right {
+=======
+
+.hero-image {
+    width: 700px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+	z-index: 0;
+
+}
+
+.hero-text {
+>>>>>>> abebabdd4307d8909a2c1b7bfd235f3d6cfc8632
     font-family: 'Covered By Your Grace', cursive;
     text-align: right;
     position: absolute;
@@ -330,9 +346,21 @@ nav a:active, nav a:hover, a.active {
     }
     
     
+<<<<<<< HEAD
     .top-right {
         top: 30%;
         font-size: 36px;
+=======
+    .hero-image {
+        width: 300px;
+        top: 35%;
+        left: 50%;
+    }
+    
+    .hero-text {
+        top: 35%;
+        left: 75%;
+>>>>>>> abebabdd4307d8909a2c1b7bfd235f3d6cfc8632
     }
     
     .footer {
@@ -368,7 +396,9 @@ nav a:active, nav a:hover, a.active {
 		margin: 0;
 		background: none;
 	}
-	
+	#scrollspy-mobile {
+		display: inline-block;
+	}
    
     #icon {
         display: inline-block;
