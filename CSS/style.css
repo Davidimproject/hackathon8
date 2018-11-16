@@ -346,30 +346,32 @@ nav a:active, nav a:hover, a.active {
     }
     .container {
         flex-direction: column;
-        height: 400px;
+        height: 1000px;
     }
     .full {
         height: 100%;
     } 
-/*Events*/
+/*START Events*/
 .Event-text {
     display: block;
-    justify-content: center;
-    text-align: center;
     padding: 50px;
 	margin-top: 50px;
 }
 #sec3 {
 	height: 1000px;
 }
-#sec3 .container{
-	height: 900px;
+
 	
+}
+/* END Events */
+/* START Blog*/
+
+#sec4 {
+	height: 1000px;
 }
 
 
-
-
+/* END Blog */
 
     .left, .right {
         width: 100%;
