@@ -204,24 +204,8 @@ nav a:active, nav a:hover, a.active {
 /* Spots (Slidegalerie)*/
 
 .slides {
-		display: none;
+		display:none;
 		width: 100%;
-}
-
-.slide {
-    width: 100%;
-    height: 400px;
-}
-
-.slide-text {
-    display: flex;
-    flex-direction: column;
-    justify-content:  center;
-    text-align: center;
-    padding: 50px;
-    background-color: #fff;
-    box-shadow: 1px 2px 18px #888888;
-    
 }
 
 
@@ -300,9 +284,7 @@ nav a:active, nav a:hover, a.active {
     height: auto;
     margin: 20px 0;
     padding-left: 5px;
-}
-.blog-eintrag p {
-    margin-bottom: 5px;
+
 }
 
 /* Newsletter*/
@@ -337,14 +319,7 @@ nav a:active, nav a:hover, a.active {
     .about-text {
         background-color: #fff;
         box-shadow: 1px 2px 18px #888888;
-        z-index: 10;
-    } 
-    
-    .slide-text {
-        width: 60%;
-        margin-top: -50px;
-        margin-left: 50px;
-        z-index: 20;
+        z-index: 1000000;
     }
     
 }
@@ -379,6 +354,27 @@ nav a:active, nav a:hover, a.active {
     .full {
         height: 100%;
     } 
+/*START Events*/
+.Event-text {
+    display: block;
+    padding: 50px;
+	margin-top: 50px;
+}
+#sec3 {
+	height: 1000px;
+}
+
+	
+
+/* END Events */
+/* START Blog*/
+
+#sec4 {
+	height: 1000px;
+}
+
+
+/* END Blog */
 
     .left, .right {
         width: 100%;
@@ -414,39 +410,6 @@ nav a:active, nav a:hover, a.active {
         width: 100% !important;
     }
      
-    
-/*START Events*/
-.Event-text {
-    display: block;
-    padding: 50px;
-	margin-top: 50px;
-}
-#sec3 {
-	height: 1000px;
-}
-
-	
-
-/* END Events */
-/* START Blog*/
-
-#sec4 {
-	height: 1000px;
-}
-
-
-/* END Blog */
-    
-    
-/* START Spots */
-   .slide {
-    height: 200px;
-} 
-    
-/* END Spots */
-    
-    
-    
     /* Resposive Nav mobile*/
     #menuBtn {
         display: block;
