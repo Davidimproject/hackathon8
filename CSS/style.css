@@ -212,6 +212,9 @@ font-family: 'Covered By Your Grace', cursive;
 
 
 /* Events*/
+#sec3 {
+	padding: 20px 0 0 0 ;
+}
 
 .Eventkalender {
     display: block;
@@ -308,7 +311,26 @@ font-family: 'Covered By Your Grace', cursive;
     .full {
         height: 100%;
     } 
-    
+/*Events*/
+.Event-text {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+	margin-top: 50px;
+}
+#sec3 {
+	height: 1000px;
+}
+#sec3 .container{
+	height: 900px;
+	
+}
+
+
+
+
+
     .left, .right {
         width: 100%;
         height: 50%;
