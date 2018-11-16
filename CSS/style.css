@@ -184,6 +184,7 @@ nav a:active, nav a:hover, a.active {
     top: 50%;
     left: 45%;
     transform: translate(-50%, -50%);
+	z-index: 0;
 }
 
 .hero-text {
@@ -329,7 +330,6 @@ nav a:active, nav a:hover, a.active {
         width: 300px;
         top: 35%;
         left: 50%;
-		z-index: 0;
     }
     
     .hero-text {
@@ -370,7 +370,9 @@ nav a:active, nav a:hover, a.active {
 		margin: 0;
 		background: none;
 	}
-	
+	#scrollspy-mobile {
+		display: inline-block;
+	}
    
     #icon {
         display: inline-block;
