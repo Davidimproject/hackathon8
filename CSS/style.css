@@ -203,12 +203,28 @@ nav a:active, nav a:hover, a.active {
 
 /* Spots (Slidegalerie)*/
 
-.slides {
-		display:none;
+
+
+ .slides {
+		display: none;
 		width: 100%;
 }
 
+.slide {
+    width: 100%;
+    height: 400px;
+}
 
+.slide-text {
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 1px 2px 18px #888888;
+
+}
 /* Events*/
 #sec3 {
 	padding: 20px 0 0 0 ;
@@ -322,6 +338,13 @@ nav a:active, nav a:hover, a.active {
         z-index: 1000000;
     }
     
+    .slide-text {
+        width: 60%;
+        margin-top: -50px;
+        margin-left: 50px;
+        z-index: 20;
+    }
+    
 }
 
 
@@ -354,7 +377,17 @@ nav a:active, nav a:hover, a.active {
     .full {
         height: 100%;
     } 
-/*START Events*/
+
+    /*START Slides*/
+
+    .slide {
+        width: 100%;
+        height: 200px;
+    }
+    
+    
+    
+    /*START Events*/
 .Event-text {
     display: block;
     padding: 50px;
