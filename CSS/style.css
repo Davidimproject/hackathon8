@@ -27,20 +27,11 @@ h2 {
     font-size: 48px;
 }
 
-.button {
-    display: block;
-    border: none;
-    border-radius: 5px;
-    padding: 12px 24px;
-    margin: 10px;
-    background-color: #06d500;
-    color: #fff;
-    font-family: 'Covered By Your Grace', cursive;
-    text-align: center;
-    font-size: 16px;
-    line-height: 16px;
-}
 
+.btn .btn-primary .unserbutton {
+    font-family: 'Covered By Your Grace', cursive;
+    background-color: #06d500;
+}
 
 
 /* Sections & Container */
