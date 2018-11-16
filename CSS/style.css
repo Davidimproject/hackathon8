@@ -339,6 +339,7 @@ nav a:active, nav a:hover, a.active {
         width: 300px;
         top: 35%;
         left: 50%;
+		z-index: 0;
     }
     
     .hero-text {
@@ -398,6 +399,7 @@ nav a:active, nav a:hover, a.active {
     
     #menu {
         display: none;
+		z-index: 900;
     }
     
     
@@ -448,8 +450,8 @@ nav a:active, nav a:hover, a.active {
     width: 100%;
     background-color: #fff;
     color: #777;
-    text-align: left;
-	height: auto;
+    text-align: center;
+	height: 250px;
 	margin: 0;
     padding: 30px 0 0 0;
 }
