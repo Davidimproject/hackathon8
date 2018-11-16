@@ -18,12 +18,12 @@ body {
 
 
 h1 {
-    font-family: 'cover by your grave', sans-serif;
+    font-family: 'cover by your grace', sans-serif;
     font-size: 58px !important;
 }
 
 h2 {
-    font-family: 'cover by your grave', sans-serif;
+    font-family: 'cover by your grace', sans-serif;
     font-size: 48px;
 }
 
@@ -35,7 +35,7 @@ h2 {
     margin: 10px;
     background-color: #06d500;
     color: #fff;
-    font-family: 'cover by your grave', sans-serif;
+    font-family: 'Covered By Your Grace', cursive;
     text-align: center;
     font-size: 16px;
     line-height: 16px;
@@ -61,25 +61,19 @@ h2 {
 	margin-bottom: 50 px;
     display: flex;
     flex-direction: row;
-    background-color: #333;
-
 }
-
 
 .left {
     display: inline-block;
-    width: 50%;
-    background-color: #fff;   
+    width: 50%;  
 }
 .right {
     display: inline-block;
     width: 50%;
-    background-color: #ff1;
 }
 .full {
     display: block;
     width: 100%;
-    background-color: aqua;
 }
 
 .about {
@@ -170,11 +164,6 @@ nav a:active, nav a:hover, a.active {
 
 /* END Navigation */
 
-/* About us */
-
-
-
-/* START Table */
 /* Banner */
 
 .hero-image {
@@ -184,6 +173,8 @@ nav a:active, nav a:hover, a.active {
     top: 50%;
     left: 45%;
     transform: translate(-50%, -50%);
+	z-index: 0;
+
 }
 
 .hero-text {
@@ -195,7 +186,26 @@ nav a:active, nav a:hover, a.active {
     transform: translate(-50%, -50%);
     color: white;
 }
+
+
 /* About us */
+
+.about {
+    display: block;
+    background-image: url(images/testbild_a.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 40%;
+}
+.about-text {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: auto;
+    padding: 20px 50px;
+    margin: 100px 0 0 50px;
+    box-shadow: 1px 2px 18px #888888;
+}
 
 
 
@@ -207,10 +217,10 @@ nav a:active, nav a:hover, a.active {
 }
 
 
+/* Events*/
 
 .Eventkalender {
     display: block;
-    border: 1px solid #000;
     padding: 5px 20px;
     margin-top: 5px;
     color: #777;
@@ -224,15 +234,16 @@ nav a:active, nav a:hover, a.active {
     border: 1px solid #d1d1d1;
     padding-left: 5px;
     transition: all 0.3s ease 0s;
+    background-color: #fff;
 }
 
 .Event h5 {
     color: #000;
+    margin-top: 5px;
 }
 
 .Event:hover {
     transform: translateY(-7px);
-    background-color: #d1d1d1;
     box-shadow: 1px 2px 18px #888888;
 }
 
@@ -265,8 +276,9 @@ nav a:active, nav a:hover, a.active {
 }
 
 .input {
-    padding: 0px 50px;
+    padding: 0px 80px;
     color: #d1d1d1;
+
 }
 /* -----START Responsive---------------------------------------------------------------------------------------------------------------- */
 
@@ -337,13 +349,13 @@ nav a:active, nav a:hover, a.active {
     }
     
     .footer {
-        display: block;
-        height: 400px !important;
+        flex-direction: column;
+        height: auto !important;
+        justify-content: center;
     }
     
     .footer-row {
-        display: block;
-        margin: 10px 0px !important;
+        width: 100% !important;
     }
      
     /* Resposive Nav mobile*/
@@ -369,7 +381,9 @@ nav a:active, nav a:hover, a.active {
 		margin: 0;
 		background: none;
 	}
-	
+	#scrollspy-mobile {
+		display: inline-block;
+	}
    
     #icon {
         display: inline-block;
@@ -388,6 +402,7 @@ nav a:active, nav a:hover, a.active {
     
     #menu {
         display: none;
+		z-index: 900;
     }
     
     
@@ -434,10 +449,11 @@ nav a:active, nav a:hover, a.active {
 
 /*----------- Start Footer--------- */
 .footer { 
+    display: flex;
     width: 100%;
     background-color: #fff;
     color: #777;
-    text-align: left;
+    text-align: center;
 	height: 250px;
 	margin: 0;
     padding: 30px 0 0 0;
@@ -447,14 +463,14 @@ nav a:active, nav a:hover, a.active {
 
 .footer-row {
     display: inline-block;
-    margin: 10px 50px;
+    margin: 10px;
+    width: 25%;
     text-align: left;
 }
 .footer-row h5{
     color: #000;
     font-size: 22px;
     font-weight: 700;
-    margin-left: 45px;
     padding-bottom: 10px;
 }
 
@@ -467,4 +483,12 @@ nav a:active, nav a:hover, a.active {
 footer-row a {
     color: #000;
     text-decoration-color: #777;
+}
+
+.copyright {
+    text-align: center; 
+    font-size: 12px;
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    font-family:'cover by your grace', sans-serif;
 }
