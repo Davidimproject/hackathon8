@@ -61,6 +61,7 @@ h2 {
 	margin-bottom: 50px;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .left {
@@ -94,7 +95,7 @@ h2 {
 .banner {
     height: 800px;
     min-height: 400px;
-    background-image: url(../images/IMG_0057.png);
+    background-image: url(../images/nichlas-andersen-415226-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -317,7 +318,18 @@ nav a:active, nav a:hover, a.active {
 
 /* Desktop Responsive*/
 @media only screen and (min-width: 992px) {
+    .about-img {
+        width: 700px;
+        height: auto;
+        margin-right: -200px;
+        padding: 0px 0 30px 20px;
+    }
     
+    .about-text {
+        background-color: #fff;
+        box-shadow: 1px 2px 18px #888888;
+        z-index: 1000000;
+    }
     
 }
 
