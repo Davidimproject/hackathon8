@@ -103,9 +103,8 @@ h2 {
 /* START Navigation */
 
 nav {
-   /* display: flex !important;*/
+   /*display: flex !important;*/
     flex-direction: row;
-    justify-content: space-between;
     background-color: black;
     padding: 0px 20px;
     box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2), 0 1px 10px 0 rgba(0,0,0,0.15);
@@ -141,7 +140,7 @@ nav ul li {
     display: inline-block;
 }*/
 nav a {
-    font-size: 22px;
+    font-size: 18px;
     padding: 20px;
     display: inline-block;
     color: white;
@@ -171,7 +170,9 @@ nav a:active, nav a:hover, a.active {
 .top-right {
     font-family: 'Covered By Your Grace', cursive;
     text-align: right;
-    position: absolute; 
+    position: absolute;
+    top: 50%;
+    left: 30%;
     color: #fff;
     font-size: 52px;
 }
@@ -179,6 +180,7 @@ nav a:active, nav a:hover, a.active {
 
 .container .hero {
     position: relative;
+    text-align: center:
     color: white;
 }
 
@@ -186,23 +188,25 @@ nav a:active, nav a:hover, a.active {
 
 /* About us */
 
-.about {
-    display: block;
-    background-image: url(images/testbild_a.png);
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 40%;
-}
-.about-text {
-    display: inline-block;
-    position: relative;
-    width: 300px;
+.about-img {
+    width: 100%;
     height: auto;
-    padding: 20px 50px;
-    margin: 100px 0 0 50px;
-    box-shadow: 1px 2px 18px #888888;
+    padding: 20px 0 30px 20px;
 }
 
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+.about-text p {
+    text-align: left;
+}
+.about-text h4 {
+    margin-bottom: 20px;
+}
 
 
 /* Spots (Slidegalerie)*/
@@ -325,7 +329,7 @@ nav a:active, nav a:hover, a.active {
     
     .top-right {
     top: 40%;
-    left: 70%;
+    left: 30%;
     font-size: 42px;
 }
     
