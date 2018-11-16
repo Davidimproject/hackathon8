@@ -4,11 +4,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="CSS/bootstrap.css">
 	<link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/navigation.css" />
+    
+    <link rel="stylesheet" href="CSS/animate.css">
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-    <script src="js/app.js"></script>
+    
+    <script type="text/javascript" src="JS/navigation.js"></script>
+    <!-- <script src="js/app.js"></script> -->
     <title>Skatepoint</title>
 	
 <style>
@@ -31,55 +37,60 @@
   
 </head>
 <body>
-  <!--  <div id="menuBtn">
-        <img src="images/icon.png" id="icon" alt="burger">
+ 
+ 
+ 
+ <div id="navigation">
+    
+    <div id="logo">Skatepoint</div>
+    <nav>
+        <ul>
+            <li><a href="#about" class="scrollNav" data-scrollTo="sec1">About</a></li>
+            <li><a href="#spots" class="scrollNav" data-scrollTo="sec2">Spots</a></li>
+            <li><a href="#events" class="scrollNav" data-scrollTo="sec3">Events</a></li>
+            <li><a href="#blog" class="scrollNav" data-scrollTo="sec4">Blog</a></li>
+            <li><a href="#newsletter" class="scrollNav" data-scrollTo="sec5">Newsletter</a></li>
+        </ul>
+    </nav>
+    <!-- <i id="hamburgerNavIcon" class="material-icons"></i> -->
+    <div id="hamburgerNavIcon">
+        <i class="material-icons animated-icon menu-cross ani">menu
+</i>
     </div>
-<nav id="menu">
-            <ul>
+<div style="clar: both;"></div>
+</div>
 
-
-
-                <li><a href="skatepoint.html" class="logo">Skatepoint</a></li>
-                <li><a href="#sec1" class="active">About</a></li>
-                <li><a href="#sec2">Spots</a></li>
-                <li><a href="#sec3">Events</a></li>
-				<li><a href="#sec4">Blog</a></li>
-				<li><a href="#sec5">Newsletter</a></li>
-            </ul>
-</nav>    
--->
-<header>
-<div id="menuBtn">
-        <img src="images/icon.png" id="icon" alt="burger">
-				<nav id="scrollspy-mobile">
-				<a href="#sec1">About</a>
-				<a href="#sec2">Spots</a>
-                <a href="#sec3">Events</a>
-				<a href="#sec4">Blog</a>
-				<a href="#sec5">Newsletter</a>
-				</nav>
-		
-    </div>
-	<nav id="menu">
-            
-
-
-
-                <a href="skatepoint.html" class="logo">Skatepoint</a>
-                <a href="#sec1">About</a>
-                <a href="#sec2">Spots</a>
-                <a href="#sec3">Events</a>
-				<a href="#sec4">Blog</a>
-				<a href="#sec5">Newsletter</a>
-            
-</nav> 
-</header>
-<section class="section banner">
+<section class="section banner" title="">
     <div class="container hero">
         <div class="top-right">Entdecke die besten Skate Spots in deiner Nähe</div>
     </div>
 </section>     
 <section class="section about" id="sec1">
+    <div class="container">
+                <div class="left">
+            <div class="about-text">
+                <h4>Über uns</h4>
+                <p>Du möchtest wissen wo etwas los ist? Treffe die Stars der Szene bei exklusiven Tipps und skate mit ihnen!</p>
+				<p>Zielgruppe 3 die Möglichkeit erwähnen das Eventkalender gekauft werden kann, sodass man direkt auf der Startseite steht und nicht auf Unterseite Eventkalender</p>
+                <a href="#" class="button">MEHR</a>
+            </div>
+        </div> 
+        <div class=right>
+    
+                <img src="images/davide-ragusa-24118-unsplash.jpg" alt="blog-bild" class="about-img">
+
+        </div>
+    </div>
+
+
+
+	
+<!--<section class="section banner">
+    <div class="container hero">
+        <div class="top-right">Entdecke die besten Skate Spots in deiner Nähe</div>
+    </div>
+</section> -->    
+<!--<section class="section about" id="sec1">
     <div class="container">
         <div class=right>
     
@@ -95,8 +106,8 @@
             </div>
         </div> 
     </div>
-</section>
-<section class="section spots" id="sec2">
+</section> -->
+<section class="section spots" id="sec2" title="Spots">
     <div class="container">
 	   <div class="full">
 	       <div class="slides">

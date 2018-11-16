@@ -92,70 +92,7 @@ h2 {
 }
 
 
-/* START Navigation */
 
-nav {
-   /*display: flex !important;*/
-    flex-direction: row;
-    background-color: black;
-    padding: 0px 20px;
-    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2), 0 1px 10px 0 rgba(0,0,0,0.15);
-    font-size: 0;
-	position: fixed;
-	z-index: 1000;
-	width: 100%;
-	top: 0;
-	left: 0;
-}
-
-.logo {
-        align-self: flex-start;
-		font-family: 'Covered By Your Grace', cursive;
-		color: white;
-        font-size: 42px;
-        padding: 0px;
-        margin: 0px;
-
-}
-
-
-/*nav ul {
-    align-self: flex-end;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-	
-}
-
-nav ul li {
-    padding: 0;
-    display: inline-block;
-}*/
-nav a {
-    font-size: 18px;
-    padding: 20px;
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-}
-
-nav a:active, nav a:hover, a.active {
-    background: rgba(255,255,255, 0.2);
-    color: #06d500;
-	text-decoration: none;
-}
-
-#icon {
-    display: none;
-}
-
-
-.nav-right {
-		float: right;
-}
-
-
-/* END Navigation */
 
 /* Banner */
 
@@ -443,83 +380,7 @@ nav a:active, nav a:hover, a.active {
         width: 100% !important;
     }
      
-    /* Resposive Nav mobile*/
-    #menuBtn {
-        display: block;
-        width: 100%;
-        margin: 0;
-        background-color: black;
-        box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2), 0 1px 10px 0 rgba(0,0,0,0.15);
-		position: fixed;
-		z-index: 1000;
-		width: 100%;
-		top: 0;
-		left: 0; 
-		height: 73px;
-    }
-	#menuBtn a{
-		display: none;
-	}
-	#menuBtn a.active {
-		display: inline;
-		color:white;
-		margin: 0;
-		background: none;
-	}
-	#scrollspy-mobile {
-		display: inline-block;
-	}
-   
-    #icon {
-        display: inline-block;
-        width: auto;
-        height: 70px;
-        padding-left: 5px;
-    }
     
-	.logo {
-			display: block;
-			width: 49px;
-			height: auto;
-			padding-left: 5px;  			
-	}
-    
-    
-    #menu {
-        display: none;
-		z-index: 900;
-    }
-    
-    
-    /**---ausgeklapptes Menü---*/
-	body {
-		padding-top: 0px;
-	}
-    nav {
-        padding: 0px;
-        text-align: center;
-		position: fixed;
-		margin-top:73px;
-		
-		display: flex;
-		flex-direction: column;
-		text-align: center;
-    }
-    /*nav ul {
-        display: flex;
-        flex-direction: column;
-		text-align: center;
-    }
-	
-	nav ul li {
-		 display: hidden;
-		
-	}
-    */
-    nav a {
-        margin: 5px 0 0 -20px;
-        width: 100%;
-    }
     
 }
 

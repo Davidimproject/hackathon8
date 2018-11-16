@@ -1,6 +1,6 @@
 $(document).ready(function() {
 /* Ihr jQuery Code */ 
-$(function() {
+/*$(function() {
   var menuVisible = false;
   $('#icon').click(function() {
     if (menuVisible) {
@@ -12,7 +12,7 @@ $(function() {
     $('#menu').css({'display':'block'});
     menuVisible = true;
   });
-});
+});*/
 
 $(window) .resize(function(){
     $('body, html') .css ('overflow', 'hidden');
@@ -29,7 +29,7 @@ $(window) .resize(function(){
 
 
 //scroll 
- 
+/* 
 $(function() {
       $('a').click(function() {
 if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
@@ -50,7 +50,7 @@ if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
 }
   });
 });
-
+*/
 
 /*Slider*/
 var slideIndex = 0;
@@ -70,7 +70,7 @@ function showSlides() {
     
     
 
-
+/*
 	
 //ScrollSpy zeigt die aktuelle Position der Seite in der Navigation
 
