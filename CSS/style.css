@@ -172,7 +172,7 @@ nav a:active, nav a:hover, a.active {
     position: absolute;
     top: 50%;
     left: 45%;
-    transform: translate(-50%, -50%);
+   /* transform: translate(-50%, -50%);*/
 }
 
 .hero-text {
