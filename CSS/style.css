@@ -94,7 +94,9 @@ h2 {
 .banner {
     height: 800px;
     min-height: 400px;
-    background-color: #d1d1d1;
+    background-image: url(../images/max-tarkhov-737999-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -165,17 +167,7 @@ nav a:active, nav a:hover, a.active {
 /* END Navigation */
 
 /* Banner */
-
-.hero-image {
-    width: 700px;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 45%;
-   /* transform: translate(-50%, -50%);*/
-}
-
-.hero-text {
+.top-right {
     font-family: 'Covered By Your Grace', cursive;
     text-align: right;
     position: absolute;
@@ -183,7 +175,14 @@ nav a:active, nav a:hover, a.active {
     left: 75%;
     transform: translate(-50%, -50%);
     color: white;
+    font-size: 52px;
 }
+.container .hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
 
 
 /* About us */
@@ -292,15 +291,11 @@ nav a:active, nav a:hover, a.active {
 /* Tablet Responsive */
 @media only screen and (max-width: 992px) {
     
-    .hero-image {
-        width: 500px;
-    
-    }
-    .hero-image {
-        width: 300px;
-        top: 35%;
-        left: 50%;
-    }
+    .top-right {
+    top: 40%;
+    left: 70%;
+    font-size: 42px;
+}
 }
 /* Mobile Responsive */
 
@@ -335,16 +330,9 @@ nav a:active, nav a:hover, a.active {
     }
     
     
-    .hero-image {
-        width: 300px;
-        top: 35%;
-        left: 50%;
-		z-index: 0;
-    }
-    
-    .hero-text {
-        top: 35%;
-        left: 75%;
+    .top-right {
+        top: 30%;
+        font-size: 36px;
     }
     
     .footer {
